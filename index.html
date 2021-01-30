@@ -3,12 +3,227 @@
 <head>
 <meta charset="UTF-8">
 <title>Untitled Document</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+<link href="css/index.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
+	<header>
+		<img class="logo" src="images/personal brand logo.png" alt="logo of joseph whitaker iii">
+	<nav>
+		<ul class="navgroup">
+		<li class="nav current">Portfolio</li>
+		<li class="nav"><a href="../../19-Week/UX_UI_HW_19/index.html" target="_self">About</a></li>
+		<li class="nav">Contact</li>	
+		</ul>
+		</nav>
+	</header>
 	
+	<nav id="navbar-example2" class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#intro"><span class="font-weight-bold">Poppy</span></a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#intro">Intro</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#randd">Research &amp; Definition</a>
+    </li>
+	<li class="nav-item">
+      <a class="nav-link" href="#idea">Ideation</a>
+    </li>
+	<li class="nav-item">
+      <a class="nav-link" href="#protest">Prototyping &amp; Testing</a>
+    </li>
+	<li class="nav-item">
+      <a class="nav-link" href="#click">Clickable &amp; Conclusion</a>
+    </li> 
+  </ul>
+</nav>
+<!--div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+  <h4 id="intro">@fat</h4>
+  <p>...</p>
+  <h4 id="mdo">@mdo</h4>
+  <p>...</p>
+  <h4 id="one">one</h4>
+  <p>...</p>
+  <h4 id="two">two</h4>
+  <p>...</p>
+  <h4 id="three">three</h4>
+  <p>...</p>
+</div-->
+	<!--div data-spy="scroll" data-target="#navbar-example2" data-offset="0"-->
+		<div class="scspy">
+	<section id="intro">
+		<div class="row green">
+		<div class="col-lg-6 col-md-6 col-sm-12 container text-center">
+			<h2>Poppy</h2>
+			<h3 id="subTitle">Tame the Plant Care Jungle</h3>
+			<p>There are a lot of resources and information at plant owner’s disposal, but rarely do they capture all that’s needed to care for their plant.</p>
+		</div></div>
+		<div class="row">
+		<div class="col-lg-4 col-md-4 col-sm-12 container">
+			<div id="initialCard" class="card mb-3">
+  			<img src="images/poppy on flowers.png" class="card-img-top" alt="...">
+  			<div class="card-body">
+    		<p class="card-text text-center">We built Poppy to not only let users set up their plant care plan and reminders, but to easily find a community of fellow plant owners to help with questions and issues specific to their plant.</p>
+    		</div>
+			</div>
+		</div></div>
+		<div class="row pink">
+		<div class="col-lg-6 col-md-6 col-sm-12 container">
+			<h3>My Role</h3>
+			<p>I worked on this project primarily as UX writer and designer, alongside 3 other designers, leading efforts on research outlining and definition, content direction and creation, and the mid–high fidelity prototyping.</p>
+			<h3>The Timeline</h3>
+			<p>We had a deadline of 3 weeks, from brainstorming to our first-iteration, high-fidelity prototype.</p>
+			<div class="card mb-3 secondCardOuter">
+  			<div class="card-body text-center secondCard">
+			<h3 class="card-title">The Process</h3>	
+    		<p class="card-text">As my team started brainstorming and researching for this class project, the idea simply began as a plant care reminder app. </p>
+			<p class="card-text">But because people can be either plant experts or casual plant owners, we started off generally wanting to learn how much the average person put into their plant care planning and execution.</p>	
+    		</div>
+			</div>
+		</div></div>
+		<div class="row justify-content-center white">
+		<div class="col-lg-2 col-md-2 col-sm-2">
+		<img src="images/plant.png" alt="illustration of a potted plant">
+		</div></div>
+	</section>
+	<section id="randd">
+	<div class="row green">
+		<div class="col-lg-6 col-md-6 col-sm-12 container">
+			<h3>User Research and Findings</h3>
+			<p>Our overwhelming answer, from our 92 survey respondents and 5 initial interviews, was that most people (even plant experts) didn’t have much or any planning or organization in place. But they still experienced discouragement when a plant died.</p>
+			<img src="images/survey results.png" alt="">
+			<h3>Definition and Synthesis</h3>
+			<p>I adjusted our problem from simply helping plant owners customize care for their plants, to also helping them feel consistently engaged and connected to the plant community and its knowledge.<br>
+			<br>
+			The story of our user persona, Natasha, helped us begin to visualize our solution.</p>
+		</div>
+	</div>
+	<div class="row white">
+		<div class="col-lg-10 col-md-10 col-sm-12 container text-center">
+		<img src="images/storyboard.png" alt="">
+		<p><span class="font-italic">Story by me, illustrations by Tera Grasser</span></p>	
+		</div>
+	</div>
+	</section>
+	<section id="idea">
+		<div class="row blue">
+		<div class="col-lg-6 col-md-6 col-sm-12 container">
+			<h3>Ideation Design</h3>
+			<p>Taking what we learned from our user research, along with our competitor analysis, we knew that high on our list of app needs was a feature for users to connect with other plant owners and experts for questions and support, alongside completely adjustable calendar and note care tools for the various ways people need to approach reminders and tasks in their day-to-day.</p>
+			</div>
+		</div>
+		<div class="row white">
+		<div class="col-lg-8 col-md-8 col-sm-12 container">
+			<img src="images/feature prioritization.png" alt="">
+			</div>
+		</div>
+		<div class="row blue noHeader">
+		<div class="col-lg-6 col-md-6 col-sm-12 container">
+			<p>Our initial user flow then focused on onboarding the user’s first plant, giving them a sense for what the app was capable of, before opening up to the app’s full breadth, including the community forum and plant journal.</p>
+			</div>
+		</div>
+		<div class="row white">
+		<div class="col-lg-10 col-md-10 col-sm-12 container">
+			<img src="images/User Flow v1.png" alt="">
+			</div>
+		</div>
+	</section>
+	<section id="protest">
+		<div class="row green">
+		<div class="col-lg-6 col-md-6 col-sm-12 container text-center">
+			<h3>Prototyping and Usability Testing</h3>
+			<img src="images/sketches.png" alt="">
+			<br>
+			<br>
+			<p>Each of the team members created their own iteration of the sketched lo-fi prototype, and, through the guerrilla testing, we quickly determined several, easily-iterated weaknesses:</p>
+			<ul>
+			<li>We needed a better signifier for where users were in the app.</li>
+			<li>There needed to be even more customization options.</li>
+			<li>The forum page should be sorted by plant type.</li>	
+			</ul>
+			</div>
+		</div>
+		<div class="row white">
+		<div class="col-lg-10 col-md-10 col-sm-12 container">
+			<img src="images/mid fi.png" alt="">
+			</div>
+		</div>
+		<div class="row green noHeader">
+		<div class="col-lg-6 col-md-6 col-sm-12 container">
+			<p>As we incorporated our findings into a mid-fi wireframe, and I plotted our objectives for our second round of user testing, I made sure to include tasks to validate if users could easily navigate the plant care collection features, as well as successfully find a desired forum to read or post a topic.</p>
+			<p>The testing revealed we still had some clarity issues around the icons and the various features, as well as a need to adjust our flow for a more defined onboarding experience and to reduce the main pages users needed to access.</p>
+			</div>
+		</div>
+		<div class="row white">
+		<div class="col-lg-12 col-md-12 col-sm-12 container">
+			<img src="images/user flow 2.png" alt="">
+			</div>
+		</div>
+		<div class="row green noHeader">
+		<div class="col-lg-6 col-md-6 col-sm-12 container">
+			<p>So after we synthesized the second round of testing results, I led the efforts to mock up iOS wireframes and implemented style elements designed by our visual designer, Tera, for our first iteration high-fidelity prototype.</p>
+			</div>
+		</div>
+		<div class="row white">
+		<div class="col-lg-12 col-md-12 col-sm-12 container">
+			<img src="images/prototype versions.png" alt="">
+			</div>
+		</div>
+	</section>
+	<section id="click">
+		<div class="row pink justify-content-lg-center">
+		<div class="col-lg-6 col-md-6 col-sm-12 text-center">
+  			<img src="images/poppy click.png" class="card-img-bottom" alt="...">
+			
+			</div>
+		</div>
+		
+		<div class="row white justify-content-lg-center">
+			<div class="col-lg-8 col-md-6 col-sm-12">
+			<div class="card lastCard">
+  			<div class="card-body text-center">
+			<h3 class="card-title">Conclusion </h3>
+			<p class="card-text">We believe, with Poppy, we’ve given plant owners an attractive, warm app that lets them customize their plant care to their heart’s desire and get help and support from other plant owners just like them.</p>
+		<br>
+			<br>
+			<h3 class="card-title">Next Steps</h3>
+				<p class="card-text">In addition to working out some readability issue feedback on the color scheme, we believe next steps for developing Poppy would be:
+					<ul>
+					<li>an expansion of customization options, after additional research on options people lean on most.</li>
+					<li>researching more engaging ways to increase the social connection features, possibly incorporating local nurseries involvement.</li>	
+					</ul>
+					</p>
+  					</div>
+				
+				</div>
+			</div></div>
+		</section>
+		</div>
+	<!--/div-->
+	<section>
+	<div class="row blue">
+		<div class="col-lg text-center justify-content-center">
+		<h1>Up Next</h1>
+		<a href="#" id="next"><h3>Jam: A Travel App</h3></a>
+			</div>
+		</div>
+	</section>
+	<section class="footer">
+		<div class="row justify-content-center text-center white">
+			<div class="col-lg-2">
+	<div class="contactIcons darkBack">
+			<img class="icon email" src="images/Icon material-email.png" alt="email icon">
+			<img class="icon" src="images/Icon simple-linkedin.png" alt="linkedin icon">
+		</div>
+		<p>&copy;2020 Joseph Whitaker</p>
+			</div>
+			</div>
+	</section>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<script src="js/index.js"></script>	
 </body>
-</html>

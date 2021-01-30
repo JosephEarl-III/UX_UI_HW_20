@@ -2,11 +2,11 @@
 /* CSS Document */
 body {
 	font-family: Sabon LT Std, Garamond, Times New Roman, serif;
-	font-size: 18px;
+	font-size: 20px;
 	color: #25263D;
 	background: #FFFFFF 0% 0% no-repeat padding-box;
 	opacity: 1;
-	
+	position: relative;
 }
 h1 {
 	font-family: 'Libre Franklin', sans-serif;
@@ -15,14 +15,15 @@ h1 {
 }
 h2 {
 	font-family: 'Libre Franklin', sans-serif;
-	font-weight: 300;
+	font-weight: 600;
 	font-size: 48px;
 }
 h3 {
 	font-family: 'Libre Franklin', sans-serif;
 	font-weight: 300;
 	font-size: 28px;
-	margin-top: 16px;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 h4 {
 	font-family: 'Libre Franklin', sans-serif;
@@ -33,7 +34,9 @@ h4 {
 p {
 	line-height: 162.5%;
 }
-
+img {
+	width: inherit;
+}
 button {
 	font-family: 'Libre Franklin', sans-serif!important;
 	font-weight: 500;
@@ -61,7 +64,7 @@ ul.navgroup {
 	text-align: center;
 	list-style-type: none;
 	margin-right: 48px;
-	margin-bottom: 112px;
+	margin-bottom: 80px;
 }
 li.nav {
 	display: inline-block;
@@ -71,9 +74,108 @@ li.nav {
 	font-size: 24px;
 	transition: border-bottom .1s ease;
 }
+.nav a {
+	color: inherit;
+	text-decoration: inherit;
+}
 .current {
 	border-bottom: 3px solid #25263D;
 }
 li.nav:hover {
 	border-bottom: 3px solid #25263D;		
+}
+.scspy {
+	height: inherit;
+	z-index: -1;
+    position:relative;
+}
+.green {
+	background-image: linear-gradient(#89A67C, #A3BC98, #E5F5E0);
+	color: #25263D;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+.pink {
+	background-image: linear-gradient(#FFFFFF, #F2EDEA, #EBE3DF);
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+.blue {
+	background-color: #25263D;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+.white {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+ul {
+	list-style-type: circle;
+	text-align: left;
+}
+.card-title {
+	margin-top: 16px;
+	margin-bottom: 40px;
+}
+#navbar-example2 {
+	overflow: hidden;
+  	background-color: #white!important;
+	border-bottom: 2px solid #25263D;
+	border-top: 2px solid #25263D;
+	font-family: 'Libre Franklin', sans-serif;
+}
+#navbar-example2 a {
+	color: #25263D;
+}
+.active {
+	background-color: #25263D!important;
+	color: white!important;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+.icon {
+	display: inline-block;
+	margin: 8px;
+}
+.email {
+	transform: translate(0, -4px)
+}
+.noHeader p{
+	margin-top: 20px;
+}
+#initialCard {
+	margin-top: -20px;
+	border: none!important;
+}
+#subTitle {
+	margin-top: 0;
+	margin-bottom: 16px;
+}
+.secondCard {
+	padding-bottom: 40px;
+}
+.secondCardOuter {
+	transform: translate3d(0px, 60px, 0px);
+	border: none
+}
+.lastCard {
+	padding-left: 56px;
+	padding-right: 56px;
+	padding-top: 40px;
+	transform: translate3d(0px, -120px, 0px);
+	border: none;
+	margin-bottom: -80px;
+}
+#next {
+	color: white;
+}
+.footer {
+	
 }
